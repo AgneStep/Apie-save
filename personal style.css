@@ -1,0 +1,151 @@
+*{
+    padding: 1px;
+    margin: 1px;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.hero {
+    height:100vh;
+    width:100%;
+    background-color: rgb(219, 142, 209);
+    background-image: url(img/pink.jpg), url(img/retro.png);
+    background-repeat: no-repeat;
+
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+
+.logo {
+    color: black;
+    font-size: 50px;
+    font-family: 'Climate Crisis', cursive;
+    letter-spacing: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:hover {
+    color:black;
+
+}
+
+.btn{
+    color:black;
+    background-color: rgb(255,166,2);
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius:30px;
+    
+
+}
+
+.btn:hover {
+    transform: scale(1.5);
+}
+
+.content{
+	position:relative;
+	top: 50%;
+	left:8%;
+	
+}
+h1{
+	color: black;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: pink;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.newsletter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newsletter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 30px;
+}
+.newsletter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color:rgb(255,166,2);
+	color: black;
+    box-shadow: orangered;
+	top: 6px;
+	right: 6px; 
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: white
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: rgb(240,80,140);
+    font-weight: bold;
+	font-size: 75px;
+	margin-bottom: 20px;
+}
+
+.about-text p{
+	color: black;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+
+}
